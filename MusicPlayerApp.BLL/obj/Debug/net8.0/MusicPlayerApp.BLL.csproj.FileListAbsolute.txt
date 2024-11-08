@@ -1,0 +1,15 @@
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\bin\Debug\net8.0\MusicPlayerApp.BLL.deps.json
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\bin\Debug\net8.0\MusicPlayerApp.BLL.dll
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\bin\Debug\net8.0\MusicPlayerApp.BLL.pdb
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\bin\Debug\net8.0\MusicPlayerApp.DAL.dll
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\bin\Debug\net8.0\MusicPlayerApp.DAL.pdb
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.csproj.AssemblyReference.cache
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.AssemblyInfoInputs.cache
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.AssemblyInfo.cs
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.csproj.CoreCompileInputs.cache
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPla.C18E35D6.Up2Date
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.dll
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\refint\MusicPlayerApp.BLL.dll
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.pdb
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\ref\MusicPlayerApp.BLL.dll

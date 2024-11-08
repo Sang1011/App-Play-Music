@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images.png" />
+    <None Remove="Resources\Images\1.jpg" />
+    <None Remove="Resources\Images\2.jpg" />
+    <None Remove="Resources\Images\3.jpg" />
+    <None Remove="Resources\Images\4.jpg" />
+    <None Remove="Resources\Images\5.jpg" />
+    <None Remove="Resources\Images\6.jpg" />
+    <None Remove="Resources\Images\7.jpg" />
+    <None Remove="Resources\Images\images.png" />
+    <None Remove="Resources\Images\Salford.ico" />
+    <None Remove="Resources\Images\Salford.png" />
+    <None Remove="Resources\Images\search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
+    <None Remove="Resources\Images\z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
+    <None Remove="Salford.png" />
+    <None Remove="search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
+    <None Remove="z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicPlayerApp.BLL\MusicPlayerApp.BLL.csproj">
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\1.jpg" />
+    <Resource Include="Resources\Images\2.jpg" />
+    <Resource Include="Resources\Images\3.jpg" />
+    <Resource Include="Resources\Images\4.jpg" />
+    <Resource Include="Resources\Images\5.jpg" />
+    <Resource Include="Resources\Images\6.jpg" />
+    <Resource Include="Resources\Images\7.jpg" />
+    <Resource Include="Resources\Images\images.png" />
+    <Resource Include="Resources\Images\Salford.ico" />
+    <Resource Include="Resources\Images\Salford.png" />
+    <Resource Include="Resources\Images\search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
+    <Resource Include="Resources\Images\z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
+  </ItemGroup>
+
+</Project>
