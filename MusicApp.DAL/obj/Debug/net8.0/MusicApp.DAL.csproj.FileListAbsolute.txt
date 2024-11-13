@@ -1,0 +1,14 @@
+E:\PRN212_Project\MusicApp\MusicApp.DAL\bin\Debug\net8.0\MusicApp.DAL.deps.json
+E:\PRN212_Project\MusicApp\MusicApp.DAL\bin\Debug\net8.0\MusicApp.DAL.runtimeconfig.json
+E:\PRN212_Project\MusicApp\MusicApp.DAL\bin\Debug\net8.0\MusicApp.DAL.dll
+E:\PRN212_Project\MusicApp\MusicApp.DAL\bin\Debug\net8.0\MusicApp.DAL.pdb
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.csproj.AssemblyReference.cache
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.AssemblyInfoInputs.cache
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.AssemblyInfo.cs
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.csproj.CoreCompileInputs.cache
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.dll
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\refint\MusicApp.DAL.dll
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.pdb
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.genruntimeconfig.cache
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\ref\MusicApp.DAL.dll
