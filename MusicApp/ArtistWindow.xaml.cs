@@ -61,13 +61,25 @@ namespace MusicApp
         {
             loadSongs();
         }
-                private void CreateButton_Click(object sender, RoutedEventArgs e)
+        private void CreateButton_Click(object sender, RoutedEventArgs e)
         {
-
+            CreateSongWindow c = new CreateSongWindow();
+            c.ShowDialog();
+            loadSongs();
         }
         private void UpdateButton_Click(object sender, RoutedEventArgs e)
         {
+            // Lấy đối tượng Song từ CommandParameter của nút
+            var button = sender as Button;
+            var selected = button?.CommandParameter as Song;
 
+            // Mở cửa sổ CreateSongWindow với bài hát đã chọn
+            CreateSongWindow detail = new CreateSongWindow();
+            detail.EditedOne = selected;
+            detail.ShowDialog();
+
+            // Tải lại danh sách bài hát sau khi cập nhật
+            loadSongs();
         }
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -76,11 +88,41 @@ namespace MusicApp
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
+            // Lấy đối tượng Song từ CommandParameter của nút
+            var button = sender as Button;
+            var songToDelete = button?.CommandParameter as Song;
 
+            // Xác nhận xóa
+            var result = MessageBox.Show($"Are you sure you want to delete '{songToDelete.Title}'?",
+                                         "Delete Confirmation",
+                                         MessageBoxButton.YesNo, MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                // Xóa bài hát khỏi danh sách
+                _service.RemoveSong(songToDelete);  // Giả sử `Songs` là danh sách các bài hát
+
+                // Tải lại danh sách hiển thị để cập nhật
+                loadSongs();
+            }
         }
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
+            //// Xác nhận đăng xuất
+            //var result = MessageBox.Show("Are you sure you want to log out?",
+            //                             "Logout Confirmation",
+            //                             MessageBoxButton.YesNo, MessageBoxImage.Question);
 
+            //if (result == MessageBoxResult.Yes)
+            //{
+
+            //    // Đóng cửa sổ hiện tại
+            //    this.Close();
+
+            //    // Hiển thị màn hình đăng nhập
+            //    LoginWindow loginWindow = new LoginWindow();
+            //    loginWindow.Show();
+            //}
         }
 
         private void SongsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

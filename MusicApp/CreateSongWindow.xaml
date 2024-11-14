@@ -5,26 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MusicApp"
         mc:Ignorable="d"
-        Title="CreateSongWindow" Height="542" Width="1000">
-    <Grid HorizontalAlignment="Left" Width="1150" Background="#FF1E1325">
-        <Label x:Name="DetailWindowModeLabel" Content="Create | Update Song" HorizontalAlignment="Left" Height="80" Margin="38,20,0,0" VerticalAlignment="Top" Width="814" FontWeight="Heavy" FontSize="40" FontStyle="Italic" Foreground="#fff"/>
+        Title="CreateSongWindow" Height="542" Width="1000" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Center" Width="1001" Background="#FF1E1325">
+        <Label x:Name="CreateSongWindowLabel" Content="Create | Update Song" HorizontalAlignment="Left" Height="80" Margin="38,20,0,0" VerticalAlignment="Top" Width="814" FontWeight="Heavy" FontSize="40" FontStyle="Italic" Foreground="#fff"/>
 
-        <Rectangle HorizontalAlignment="Left" Height="345" Margin="38,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="725" Fill="#fff" RadiusX="10" RadiusY="10"/>
+        <Rectangle HorizontalAlignment="Left" Height="345" Margin="34,125,0,0" Stroke="Black" VerticalAlignment="Top" Width="690" Fill="#AE7DAC" RadiusX="10" RadiusY="10"/>
 
-        <Label Content="Title" HorizontalAlignment="Left" Height="45" Margin="58,155,0,0" VerticalAlignment="Top" Width="107" Foreground="#000"/>
-        <TextBox x:Name="TitleTextBox" HorizontalAlignment="Left" Height="45" Margin="223,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" TabIndex="0"/>
+        <Label Content="SongID" HorizontalAlignment="Left" Height="30" Margin="45,138,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="76" Foreground="#000"/>
+        <TextBox x:Name="SongIDTextBox" HorizontalAlignment="Left" Height="28" Margin="154,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" TabIndex="0"/>
 
-        <Label Content="Genre" HorizontalAlignment="Left" Height="45" Margin="58,218,0,0" VerticalAlignment="Top" Width="107" Foreground="#000"/>
-        <ComboBox x:Name="GenreComboBox" HorizontalAlignment="Left" Height="45" Margin="223,216,0,0" VerticalAlignment="Top" Width="496" TabIndex="1" FontSize="18" />
+        <Label Content="UserID" HorizontalAlignment="Left" Height="30" Margin="301,138,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="76" Foreground="#000"/>
+        <TextBox x:Name="UserIDTextBox" HorizontalAlignment="Left" Height="28" Margin="380,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" TabIndex="0"/>
 
-        <Label Content="File" HorizontalAlignment="Left" Height="45" Margin="58,284,0,0" VerticalAlignment="Top" Width="107" Foreground="#000"/>
-        <TextBox x:Name="FilePathTextBox" HorizontalAlignment="Left" Height="45" Margin="223,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495" IsReadOnly="True" TabIndex="2"/>
-        <Button Content="Browse" HorizontalAlignment="Left" Height="44" Margin="637,283,0,0" VerticalAlignment="Top" Width="80" TabIndex="3" Click="BrowseButton_Click" Background="#808080"/>
+        <Label Content="Title" HorizontalAlignment="Left" Height="29" Margin="45,182,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="74" Foreground="#000"/>
+        <TextBox x:Name="TitleTextBox" HorizontalAlignment="Left" Height="28" Margin="154,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" TabIndex="0"/>
 
-        <Label Content="Release Date" HorizontalAlignment="Left" Height="45" Margin="58,351,0,0" VerticalAlignment="Top" Width="128" Foreground="#000"/>
-        <DatePicker x:Name="ReleaseDatePicker" HorizontalAlignment="Left" Height="27" Margin="223,359,0,0" VerticalAlignment="Top" Width="112" TabIndex="4"/>
+        <Label Content="Genre" HorizontalAlignment="Left" Height="30" Margin="45,226,0,0" VerticalAlignment="Top" Width="78" Foreground="#000" FontWeight="Bold" FontSize="15"/>
+        <ComboBox x:Name="GenreIdComboBox" HorizontalAlignment="Left" Height="32" Margin="154,228,0,0" VerticalAlignment="Top" Width="127" TabIndex="1" FontSize="18" />
 
-        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Height="50" Margin="787,132,0,0" VerticalAlignment="Top" Width="165" TabIndex="5" Click="SaveButton_Click"/>
-        <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Left" Height="50" Margin="787,202,0,0" VerticalAlignment="Top" Width="165" TabIndex="6" Click="CloseButton_Click"/>
+        <Label Content="Image" HorizontalAlignment="Left" Height="30" Margin="44,277,0,0" VerticalAlignment="Top" Width="80" Foreground="#000" FontWeight="Bold" FontSize="15" RenderTransformOrigin="0.476,0.475"/>
+        <TextBox x:Name="ImageTextBox" HorizontalAlignment="Left" Height="31" Margin="155,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495" IsReadOnly="True" TabIndex="2"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Height="31" Margin="582,279,0,0" VerticalAlignment="Top" Width="68" TabIndex="3" Click="BrowseImageButton_Click" Background="#808080" RenderTransformOrigin="0.475,-0.749"/>
+
+        <Label Content="File" HorizontalAlignment="Left" Height="32" Margin="44,326,0,0" VerticalAlignment="Top" Width="74" Foreground="#000" FontWeight="Bold" FontSize="15"/>
+        <TextBox x:Name="FilePathTextBox" HorizontalAlignment="Left" Height="30" Margin="154,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" IsReadOnly="True" TabIndex="2"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Height="30" Margin="583,328,0,0" VerticalAlignment="Top" Width="67" TabIndex="3" Click="BrowseFileButton_Click" Background="#808080"/>
+
+        <Label Content="Duration" HorizontalAlignment="Left" Height="29" Margin="44,375,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="74" Foreground="#000"/>
+        <TextBox x:Name="DurationTextBox" HorizontalAlignment="Left" Height="28" Margin="154,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" TabIndex="0"/>
+
+        <Label Content="Release Date" HorizontalAlignment="Left" Height="34" Margin="45,416,0,0" VerticalAlignment="Top" Width="102" Foreground="#000" FontWeight="Bold" FontSize="15"/>
+        <DatePicker x:Name="ReleaseDatePicker" HorizontalAlignment="Left" Height="24" Margin="152,419,0,0" VerticalAlignment="Top" Width="150" TabIndex="4"/>
+
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Height="50" Margin="751,133,0,0" VerticalAlignment="Top" Width="165" TabIndex="5" Click="SaveButton_Click" Background="#6BA3BE"/>
+        <Button x:Name="CloseButton" Content="Close" Height="50" Margin="752,197,86,0" VerticalAlignment="Top" TabIndex="6" Click="CloseButton_Click" Background="#B4182D"/>
     </Grid>
 </Window>

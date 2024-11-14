@@ -83,3 +83,12 @@ E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\Resources\Songs\7.m
 E:\PRN212_Project\MusicApp\MusicApp\obj\Debug\net8.0-windows\ArtistWindow.g.cs
 E:\PRN212_Project\MusicApp\MusicApp\obj\Debug\net8.0-windows\ArtistWindow.baml
 E:\PRN212_Project\MusicApp\MusicApp\obj\Debug\net8.0-windows\CreateSongWindow.g.cs
+E:\PRN212_Project\MusicApp\MusicApp\obj\Debug\net8.0-windows\CreateSongWindow.baml
+E:\PRN212_Project\MusicApp\MusicApp\obj\Debug\net8.0-windows\MusicApp.sourcelink.json
+E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\NAudio.dll
+E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\NAudio.Asio.dll
+E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\NAudio.Core.dll
+E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\NAudio.Midi.dll
+E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+E:\PRN212_Project\MusicApp\MusicApp\bin\Debug\net8.0-windows\NAudio.WinMM.dll

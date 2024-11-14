@@ -15,7 +15,7 @@ namespace MusicApp.DAL.Repositories
         public List<Song> GetAll()
         {
             _context = new MusicAppContext();
-            return _context.Songs.Include(s => s.User).Include(s => s.Genre).ToList();
+            return _context.Songs.Include(s => s.Genre).ToList();
         }
 
         public List<Song> GetAllListSongsWithUserID(int userID)

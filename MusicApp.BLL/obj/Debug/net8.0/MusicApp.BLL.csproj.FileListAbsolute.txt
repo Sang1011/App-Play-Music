@@ -13,3 +13,4 @@ E:\PRN212_Project\MusicApp\MusicApp.BLL\obj\Debug\net8.0\MusicApp.BLL.dll
 E:\PRN212_Project\MusicApp\MusicApp.BLL\obj\Debug\net8.0\refint\MusicApp.BLL.dll
 E:\PRN212_Project\MusicApp\MusicApp.BLL\obj\Debug\net8.0\MusicApp.BLL.pdb
 E:\PRN212_Project\MusicApp\MusicApp.BLL\obj\Debug\net8.0\ref\MusicApp.BLL.dll
+E:\PRN212_Project\MusicApp\MusicApp.BLL\obj\Debug\net8.0\MusicApp.BLL.sourcelink.json

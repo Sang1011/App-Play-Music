@@ -18,7 +18,7 @@
         <Image x:Name="ImageBackground" Source="{Binding Image}" Margin="152,11,26,304" Stretch="UniformToFill"/>
         <TextBox x:Name="SearchBox" Padding="20,0,0,0" Height="23" FontSize="14" VerticalAlignment="Top" TextChanged="SearchBox_TextChanged" Margin="336,34,239,0"/>
         <Image HorizontalAlignment="Left" Height="21" Margin="337,35,0,0" Source="Resources/Images/search-searching-icon-vector-magnifying-260nw-1613155609.webp" VerticalAlignment="Top" Width="22" Stretch="UniformToFill"/>
-        <Button Width="168" Height="30" Content="+ Add new song" Background="#83A6CE" Foreground="#fff" FontSize="20" FontWeight="Bold" Click="CreateButton_Click" 			RenderTransformOrigin="-0.268,0.401" Margin="825,269,27,265"/>
+        <Button Content="+ Add new song" Background="#83A6CE" Foreground="#fff" FontSize="20" FontWeight="Bold" Click="CreateButton_Click" 			RenderTransformOrigin="-0.268,0.401" Margin="805,259,26,253"/>
         <!-- Songs list -->
         <ListBox x:Name="SongsListBox" HorizontalAlignment="Left" Margin="155,315,0,0" VerticalAlignment="Top" Width="840" Height="248" Background="{x:Null}" BorderBrush="{x:Null}" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="SongsListBox_SelectionChanged">
             <ListBox.ItemTemplate>
@@ -27,7 +27,7 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
                         <!-- Album image -->
@@ -42,8 +42,8 @@
 
                         <!-- Edit and delete buttons -->
                         <StackPanel Orientation="Horizontal" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0">
-                            <Button Content="🖉" Width="25" Height="25" Margin="0 0 5 0" Click="UpdateButton_Click"/>
-                            <Button Content="✖" Width="25" Height="25" Click="DeleteButton_Click"/>
+                            <Button Content="🖉" Width="25" Height="25" Margin="0 0 5 0" Click="UpdateButton_Click" CommandParameter="{Binding}"/>
+                            <Button Content="✖" Width="25" Height="25" Click="DeleteButton_Click" CommandParameter="{Binding}"/>
                         </StackPanel>
                     </Grid>
                 </DataTemplate>

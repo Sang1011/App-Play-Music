@@ -25,6 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MusicApp.BLL\MusicApp.BLL.csproj">
       <Private>True</Private>
     </ProjectReference>

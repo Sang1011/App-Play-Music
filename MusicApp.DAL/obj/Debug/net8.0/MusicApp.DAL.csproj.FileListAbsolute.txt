@@ -12,3 +12,4 @@ E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\refint\MusicApp.DAL.dll
 E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.pdb
 E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.genruntimeconfig.cache
 E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\ref\MusicApp.DAL.dll
+E:\PRN212_Project\MusicApp\MusicApp.DAL\obj\Debug\net8.0\MusicApp.DAL.sourcelink.json
