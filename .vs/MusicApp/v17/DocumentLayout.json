@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\PRN212_Project\\MusicApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|e:\\prn212_project\\musicapp\\musicapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|e:\\prn212_project\\musicapp\\musicapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|e:\\prn212_project\\musicapp\\musicapp\\createsongwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\createsongwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01A7842D-7407-490B-AB3C-1C4E2117861E}|MusicApp.DAL\\MusicApp.DAL.csproj|e:\\prn212_project\\musicapp\\musicapp.dal\\repositories\\genrerepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01A7842D-7407-490B-AB3C-1C4E2117861E}|MusicApp.DAL\\MusicApp.DAL.csproj|solutionrelative:musicapp.dal\\repositories\\genrerepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|e:\\prn212_project\\musicapp\\musicapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|e:\\prn212_project\\musicapp\\musicapp\\createsongwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\createsongwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|e:\\prn212_project\\musicapp\\musicapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01A7842D-7407-490B-AB3C-1C4E2117861E}|MusicApp.DAL\\MusicApp.DAL.csproj|e:\\prn212_project\\musicapp\\musicapp.dal\\repositories\\genrerepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A7842D-7407-490B-AB3C-1C4E2117861E}|MusicApp.DAL\\MusicApp.DAL.csproj|solutionrelative:musicapp.dal\\repositories\\genrerepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01A7842D-7407-490B-AB3C-1C4E2117861E}|MusicApp.DAL\\MusicApp.DAL.csproj|e:\\prn212_project\\musicapp\\musicapp.dal\\repositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{162D21E1-FC0B-4EDF-918A-B80A03809ED0}|MusicApp.BLL\\MusicApp.BLL.csproj|solutionrelative:musicapp.bll\\services\\songservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|e:\\prn212_project\\musicapp\\musicapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E701BEEF-1FB7-4721-BD0A-20198295FED6}|MusicApp\\MusicApp.csproj|solutionrelative:musicapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01A7842D-7407-490B-AB3C-1C4E2117861E}|MusicApp.DAL\\MusicApp.DAL.csproj|e:\\prn212_project\\musicapp\\musicapp.dal\\entities\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01A7842D-7407-490B-AB3C-1C4E2117861E}|MusicApp.DAL\\MusicApp.DAL.csproj|solutionrelative:musicapp.dal\\entities\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,63 +66,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "MusicApp.BLL\\Services\\UserServices.cs",
-              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\UserServices.cs",
-              "RelativeToolTip": "MusicApp.BLL\\Services\\UserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicApp\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MusicApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:33:17.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T15:08:32.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GenreServices.cs",
-              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\GenreServices.cs",
-              "RelativeDocumentMoniker": "MusicApp.BLL\\Services\\GenreServices.cs",
-              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\GenreServices.cs",
-              "RelativeToolTip": "MusicApp.BLL\\Services\\GenreServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:33:15.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SongServices.cs",
-              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\SongServices.cs",
-              "RelativeDocumentMoniker": "MusicApp.BLL\\Services\\SongServices.cs",
-              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\SongServices.cs",
-              "RelativeToolTip": "MusicApp.BLL\\Services\\SongServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:33:10.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Song.cs",
-              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Entities\\Song.cs",
-              "RelativeDocumentMoniker": "MusicApp.DAL\\Entities\\Song.cs",
-              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Entities\\Song.cs",
-              "RelativeToolTip": "MusicApp.DAL\\Entities\\Song.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:08:15.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Genre.cs",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Entities\\Genre.cs",
               "RelativeDocumentMoniker": "MusicApp.DAL\\Entities\\Genre.cs",
@@ -126,24 +90,70 @@
               "RelativeToolTip": "MusicApp.DAL\\Entities\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:07:00.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T06:07:00.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "Song.cs",
+              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Entities\\Song.cs",
+              "RelativeDocumentMoniker": "MusicApp.DAL\\Entities\\Song.cs",
+              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Entities\\Song.cs",
+              "RelativeToolTip": "MusicApp.DAL\\Entities\\Song.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:08:15.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "MusicApp.BLL\\Services\\UserServices.cs",
+              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\UserServices.cs",
+              "RelativeToolTip": "MusicApp.BLL\\Services\\UserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:33:17.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenreServices.cs",
+              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\GenreServices.cs",
+              "RelativeDocumentMoniker": "MusicApp.BLL\\Services\\GenreServices.cs",
+              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\GenreServices.cs",
+              "RelativeToolTip": "MusicApp.BLL\\Services\\GenreServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:33:15.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SongServices.cs",
+              "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\SongServices.cs",
+              "RelativeDocumentMoniker": "MusicApp.BLL\\Services\\SongServices.cs",
+              "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp.BLL\\Services\\SongServices.cs",
+              "RelativeToolTip": "MusicApp.BLL\\Services\\SongServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:33:10.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateSongWindow.xaml",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp\\CreateSongWindow.xaml",
               "RelativeDocumentMoniker": "MusicApp\\CreateSongWindow.xaml",
               "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp\\CreateSongWindow.xaml",
               "RelativeToolTip": "MusicApp\\CreateSongWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T05:55:20.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T05:55:20.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SongRepositories.cs",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Repositories\\SongRepositories.cs",
               "RelativeDocumentMoniker": "MusicApp.DAL\\Repositories\\SongRepositories.cs",
@@ -151,12 +161,11 @@
               "RelativeToolTip": "MusicApp.DAL\\Repositories\\SongRepositories.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAEwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T05:11:42.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T05:11:42.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MusicApp.csproj",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp\\MusicApp.csproj",
               "RelativeDocumentMoniker": "MusicApp\\MusicApp.csproj",
@@ -168,20 +177,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CreateSongWindow.xaml.cs",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp\\CreateSongWindow.xaml.cs",
               "RelativeDocumentMoniker": "MusicApp\\CreateSongWindow.xaml.cs",
               "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp\\CreateSongWindow.xaml.cs",
               "RelativeToolTip": "MusicApp\\CreateSongWindow.xaml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAIwEUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwCkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T04:48:41.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T04:48:41.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GenreRepositories.cs",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Repositories\\GenreRepositories.cs",
               "RelativeDocumentMoniker": "MusicApp.DAL\\Repositories\\GenreRepositories.cs",
@@ -189,12 +197,11 @@
               "RelativeToolTip": "MusicApp.DAL\\Repositories\\GenreRepositories.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T04:47:21.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T04:47:21.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserRepositories.cs",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp.DAL\\Repositories\\UserRepositories.cs",
               "RelativeDocumentMoniker": "MusicApp.DAL\\Repositories\\UserRepositories.cs",
@@ -202,30 +209,28 @@
               "RelativeToolTip": "MusicApp.DAL\\Repositories\\UserRepositories.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T04:44:48.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T04:44:48.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "ArtistWindow.xaml",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp\\ArtistWindow.xaml",
               "RelativeDocumentMoniker": "MusicApp\\ArtistWindow.xaml",
               "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp\\ArtistWindow.xaml",
               "RelativeToolTip": "MusicApp\\ArtistWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T04:05:00.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T04:05:00.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ArtistWindow.xaml.cs",
               "DocumentMoniker": "E:\\PRN212_Project\\MusicApp\\MusicApp\\ArtistWindow.xaml.cs",
               "RelativeDocumentMoniker": "MusicApp\\ArtistWindow.xaml.cs",
               "ToolTip": "E:\\PRN212_Project\\MusicApp\\MusicApp\\ArtistWindow.xaml.cs",
               "RelativeToolTip": "MusicApp\\ArtistWindow.xaml.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAA4wE4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T02:33:49.01Z",
               "EditorCaption": ""

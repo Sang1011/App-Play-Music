@@ -64,6 +64,7 @@ namespace MusicApp
         private void CreateButton_Click(object sender, RoutedEventArgs e)
         {
             CreateSongWindow c = new CreateSongWindow();
+            c.CurrentUser = new() {UserId = 3 };
             c.ShowDialog();
             loadSongs();
         }

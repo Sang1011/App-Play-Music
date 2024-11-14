@@ -16,6 +16,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace MusicApp
 {
@@ -28,6 +29,7 @@ namespace MusicApp
         private SongServices _songService = new SongServices();
         private GenreServices _genreService = new GenreServices();
         public Song? EditedOne { get; set; }
+        public User? CurrentUser { get; set; } 
 
         public CreateSongWindow()
         {
@@ -36,8 +38,8 @@ namespace MusicApp
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            SongIDTextBox.IsEnabled = false;
-            UserIDTextBox.IsEnabled = false;
+            SongIDTextBox.Visibility = Visibility.Collapsed; // Hoặc Visibility.Hidden
+            UserIDTextBox.Visibility = Visibility.Collapsed;
             GenreIdComboBox.ItemsSource = _genreService.GetList();
             GenreIdComboBox.DisplayMemberPath = "Name";
             GenreIdComboBox.SelectedValuePath = "GenreId";
@@ -45,6 +47,7 @@ namespace MusicApp
             if (EditedOne == null)
             {
                 CreateSongWindowLabel.Content = "Create Song";
+                UserIDTextBox.Text = CurrentUser.UserId.ToString();
                 return;
             }
             CreateSongWindowLabel.Content = "Update Song";
@@ -101,12 +104,12 @@ namespace MusicApp
             {
                 string filePath = openFileDialog.FileName;
 
-                // Kiểm tra nếu file có đuôi .jpg, .jpeg, .png, hoặc .bmp
-                string fileExtension = GetFileNameFromPath(filePath).ToLower();
+                // Lấy phần đuôi của file
+                string fileExtension = System.IO.Path.GetExtension(filePath).ToLower();
                 if (fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png" || fileExtension == ".bmp")
                 {
-                    // Gán đường dẫn file vào TextBox
-                    ImageTextBox.Text = filePath;
+                    string fileNameWithExtension = GetFileNameFromPath(filePath);
+                    ImageTextBox.Text = fileNameWithExtension;
                 }
                 else
                 {
@@ -135,15 +138,18 @@ namespace MusicApp
                     // Lấy thời lượng của file và gán vào DurationTextBox
                     try
                     {
-                        // Sử dụng AudioFileReader của NAudio để đọc file và lấy thời lượng
-                        using (var audioFile = new AudioFileReader(audioFilePath))
+                        // Sử dụng MediaPlayer để đọc thời lượng của file
+                        MediaPlayer mediaPlayer = new MediaPlayer();
+                        mediaPlayer.Open(new Uri(audioFilePath));
+                        mediaPlayer.MediaOpened += (s, ev) =>
                         {
-                            TimeSpan duration = audioFile.TotalTime;
+                            // Lấy thời lượng khi file đã mở xong
+                            TimeSpan duration = mediaPlayer.NaturalDuration.TimeSpan;
+                            DurationTextBox.Text = duration.ToString(@"hh\:mm\:ss");
 
-                            // Hiển thị thời lượng vào TextBox
-                            DurationTextBox.Text = duration.ToString("HH:mm:ss");
-
-                        }
+                            // Đóng MediaPlayer sau khi lấy thông tin
+                            mediaPlayer.Close();
+                        };
                     }
                     catch (Exception ex)
                     {
