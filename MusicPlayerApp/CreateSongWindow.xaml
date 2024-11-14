@@ -11,10 +11,10 @@
 
         <Rectangle HorizontalAlignment="Left" Height="345" Margin="34,125,0,0" Stroke="Black" VerticalAlignment="Top" Width="690" Fill="#AE7DAC" RadiusX="10" RadiusY="10"/>
 
-        <Label Content="SongID" HorizontalAlignment="Left" Height="30" Margin="45,138,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="76" Foreground="#000"/>
+        
         <TextBox x:Name="SongIDTextBox" HorizontalAlignment="Left" Height="28" Margin="154,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" TabIndex="0"/>
 
-        <Label Content="UserID" HorizontalAlignment="Left" Height="30" Margin="301,138,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="76" Foreground="#000"/>
+        
         <TextBox x:Name="UserIDTextBox" HorizontalAlignment="Left" Height="28" Margin="380,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" TabIndex="0"/>
 
         <Label Content="Title" HorizontalAlignment="Left" Height="29" Margin="45,182,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="74" Foreground="#000"/>

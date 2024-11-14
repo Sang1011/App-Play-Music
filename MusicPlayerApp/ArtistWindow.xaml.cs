@@ -34,10 +34,6 @@ namespace MusicPlayerApp
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            if(CurrentUser != null)
-            {
-                LoginButton.IsEnabled = false;
-            }
             loadSongs();
         }
 
@@ -46,12 +42,14 @@ namespace MusicPlayerApp
             this.DataContext = CurrentUser;
             var allSongs = _service.GetAllListSongsWithUserID(CurrentUser.UserId);
             FilteredSongs = new ObservableCollection<Song>(allSongs);
+            SongsListBox.ItemsSource = null;
             SongsListBox.ItemsSource = FilteredSongs;
         }
 
         private void CreateButton_Click(object sender, RoutedEventArgs e)
         {
             CreateSongWindow c = new CreateSongWindow();
+            c.CurrentUser = CurrentUser;
             c.ShowDialog();
             loadSongs();
         }
@@ -161,14 +159,28 @@ namespace MusicPlayerApp
             this.Close();
         }
 
-        private void LoginButton_Click(object sender, RoutedEventArgs e)
-        {
-            // nope sure dang nhap roi
-        }
-
         private void Workspace_Click(object sender, RoutedEventArgs e)
         {
             loadSongs();
+        }
+
+        private void SongsListBox_SelectionChange(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedItem = SongsListBox.SelectedItem;
+            if (selectedItem is Song selectedSong)
+            {
+                if (detailWindow == null || !detailWindow.IsVisible)
+                {
+                    detailWindow = new DetailWindow
+                    {
+                        CurrentUser = CurrentUser,
+                        SelectedSong = selectedSong,
+                    };
+                    detailWindow.Show();
+                }
+
+                detailWindow.UpdateSongInfo(selectedSong);
+            }
         }
     }
 }

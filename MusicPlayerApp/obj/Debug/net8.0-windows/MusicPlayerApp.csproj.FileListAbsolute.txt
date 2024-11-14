@@ -87,13 +87,6 @@ D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerA
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\obj\Debug\net8.0-windows\DetailWindow.baml
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\obj\Debug\net8.0-windows\PlaylistShow.g.cs
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\obj\Debug\net8.0-windows\PlaylistShow.baml
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\bin\Debug\net8.0-windows\NAudio.dll
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\bin\Debug\net8.0-windows\NAudio.Asio.dll
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\bin\Debug\net8.0-windows\NAudio.Core.dll
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\bin\Debug\net8.0-windows\NAudio.Midi.dll
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\bin\Debug\net8.0-windows\NAudio.WinForms.dll
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\bin\Debug\net8.0-windows\NAudio.WinMM.dll
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\obj\Debug\net8.0-windows\ArtistWindow.g.cs
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\obj\Debug\net8.0-windows\CreateSongWindow.g.cs
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\obj\Debug\net8.0-windows\ArtistWindow.baml

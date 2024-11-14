@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\createsongwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\createsongwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp.bll\\services\\playlistservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|solutionrelative:musicplayerapp.bll\\services\\playlistservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\favoritewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\favoritewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\createsongwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\createsongwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\createsongwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\createsongwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\playlistshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\playlistshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\themeswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +43,28 @@
       "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\playlistshow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{756879FD-3758-4559-A49D-2BA5B3E016CC}|MusicPlayerApp.DAL\\MusicPlayerApp.DAL.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp.dal\\repositories\\songrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{756879FD-3758-4559-A49D-2BA5B3E016CC}|MusicPlayerApp.DAL\\MusicPlayerApp.DAL.csproj|solutionrelative:musicplayerapp.dal\\repositories\\songrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp.bll\\services\\songservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|solutionrelative:musicplayerapp.bll\\services\\songservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\favoritewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\favoritewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\artistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\artistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\themeswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -57,26 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{756879FD-3758-4559-A49D-2BA5B3E016CC}|MusicPlayerApp.DAL\\MusicPlayerApp.DAL.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp.dal\\repositories\\songrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{756879FD-3758-4559-A49D-2BA5B3E016CC}|MusicPlayerApp.DAL\\MusicPlayerApp.DAL.csproj|solutionrelative:musicplayerapp.dal\\repositories\\songrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp.bll\\services\\songservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|solutionrelative:musicplayerapp.bll\\services\\songservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\createsongwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\createsongwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp\\playlistshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D414E715-E68E-4678-B3C2-E2BA11B2CE94}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\playlistshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp.bll\\services\\playlistservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E62E8078-9577-4866-AEE8-3B3979462DA2}|MusicPlayerApp.BLL\\MusicPlayerApp.BLL.csproj|solutionrelative:musicplayerapp.bll\\services\\playlistservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{756879FD-3758-4559-A49D-2BA5B3E016CC}|MusicPlayerApp.DAL\\MusicPlayerApp.DAL.csproj|d:\\dai_hoc\\sang\\semester5\\prn212\\groupproject\\musicplayerapp_group4\\musicplayerapp.dal\\repositories\\playlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,72 +134,120 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArtistWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\ArtistWindow.xaml.cs",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayerApp\\ArtistWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:39:39.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateSongWindow.xaml",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\CreateSongWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\CreateSongWindow.xaml",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\CreateSongWindow.xaml",
+              "RelativeToolTip": "MusicPlayerApp\\CreateSongWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T12:40:46.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ArtistWindow.xaml",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\ArtistWindow.xaml",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml",
+              "RelativeToolTip": "MusicPlayerApp\\ArtistWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T12:34:08.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlaylistShow.xaml",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\PlaylistShow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\PlaylistShow.xaml",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\PlaylistShow.xaml",
+              "RelativeToolTip": "MusicPlayerApp\\PlaylistShow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T07:41:30.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MusicPlayerApp\\MainWindow.xaml.cs",
               "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "MusicPlayerApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAwwB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwHwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T07:08:56.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ThemesWindow.xaml.cs",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ThemesWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\ThemesWindow.xaml.cs",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ThemesWindow.xaml.cs",
-              "RelativeToolTip": "MusicPlayerApp\\ThemesWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwD8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T05:13:40.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FavoriteWindow.xaml.cs",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\FavoriteWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\FavoriteWindow.xaml.cs",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\FavoriteWindow.xaml.cs",
-              "RelativeToolTip": "MusicPlayerApp\\FavoriteWindow.xaml.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowKIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T06:51:16.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DetailWindow.xaml.cs",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\DetailWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\DetailWindow.xaml.cs",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\DetailWindow.xaml.cs",
-              "RelativeToolTip": "MusicPlayerApp\\DetailWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwDwAAAA+AAAAAAAAAA==",
+              "Title": "PlaylistServices.cs",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
+              "RelativeToolTip": "MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:15:33.579Z",
+              "WhenOpened": "2024-11-14T07:23:13.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CreateSongWindow.xaml.cs",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\CreateSongWindow.xaml.cs",
               "RelativeDocumentMoniker": "MusicPlayerApp\\CreateSongWindow.xaml.cs",
               "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\CreateSongWindow.xaml.cs",
               "RelativeToolTip": "MusicPlayerApp\\CreateSongWindow.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T12:41:18.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\MainWindow.xaml",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\MainWindow.xaml",
+              "RelativeToolTip": "MusicPlayerApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T14:53:01.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThemesWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ThemesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\ThemesWindow.xaml.cs",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ThemesWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayerApp\\ThemesWindow.xaml.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAcwC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T05:13:40.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PlaylistShow.xaml.cs",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\PlaylistShow.xaml.cs",
               "RelativeDocumentMoniker": "MusicPlayerApp\\PlaylistShow.xaml.cs",
@@ -212,7 +260,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "DetailWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\DetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\DetailWindow.xaml.cs",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\DetailWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayerApp\\DetailWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:15:33.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SongRepositories.cs",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
+              "RelativeToolTip": "MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T07:11:38.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SongServices.cs",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\SongServices.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp.BLL\\Services\\SongServices.cs",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\SongServices.cs",
+              "RelativeToolTip": "MusicPlayerApp.BLL\\Services\\SongServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:35:48.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FavoriteWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\FavoriteWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\FavoriteWindow.xaml.cs",
+              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\FavoriteWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayerApp\\FavoriteWindow.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowKIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:51:16.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DetailWindow.xaml",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\DetailWindow.xaml",
               "RelativeDocumentMoniker": "MusicPlayerApp\\DetailWindow.xaml",
@@ -224,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "MusicPlayerApp\\LoginWindow.xaml.cs",
@@ -237,44 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ArtistWindow.xaml",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\ArtistWindow.xaml",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml",
-              "RelativeToolTip": "MusicPlayerApp\\ArtistWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T12:34:08.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ArtistWindow.xaml.cs",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\ArtistWindow.xaml.cs",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ArtistWindow.xaml.cs",
-              "RelativeToolTip": "MusicPlayerApp\\ArtistWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:39:39.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\MainWindow.xaml",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\MainWindow.xaml",
-              "RelativeToolTip": "MusicPlayerApp\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-13T14:53:01.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ThemesWindow.xaml",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\ThemesWindow.xaml",
               "RelativeDocumentMoniker": "MusicPlayerApp\\ThemesWindow.xaml",
@@ -286,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "FavoriteWindow.xaml",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\FavoriteWindow.xaml",
               "RelativeDocumentMoniker": "MusicPlayerApp\\FavoriteWindow.xaml",
@@ -298,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "MusicPlayerApp\\LoginWindow.xaml",
@@ -310,76 +373,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SongRepositories.cs",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
-              "RelativeToolTip": "MusicPlayerApp.DAL\\Repositories\\SongRepositories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:11:38.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SongServices.cs",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\SongServices.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp.BLL\\Services\\SongServices.cs",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\SongServices.cs",
-              "RelativeToolTip": "MusicPlayerApp.BLL\\Services\\SongServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:35:48.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateSongWindow.xaml",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\CreateSongWindow.xaml",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\CreateSongWindow.xaml",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\CreateSongWindow.xaml",
-              "RelativeToolTip": "MusicPlayerApp\\CreateSongWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T12:40:46.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PlaylistShow.xaml",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\PlaylistShow.xaml",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\PlaylistShow.xaml",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp\\PlaylistShow.xaml",
-              "RelativeToolTip": "MusicPlayerApp\\PlaylistShow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T07:41:30.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PlaylistServices.cs",
-              "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
-              "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
-              "RelativeToolTip": "MusicPlayerApp.BLL\\Services\\PlaylistServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:23:13.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 19,
               "Title": "PlaylistRepository.cs",
               "DocumentMoniker": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.DAL\\Repositories\\PlaylistRepository.cs",
               "RelativeDocumentMoniker": "MusicPlayerApp.DAL\\Repositories\\PlaylistRepository.cs",
               "ToolTip": "D:\\DAI_HOC\\Sang\\Semester5\\PRN212\\GroupProject\\MusicPlayerApp_Group4\\MusicPlayerApp.DAL\\Repositories\\PlaylistRepository.cs",
               "RelativeToolTip": "MusicPlayerApp.DAL\\Repositories\\PlaylistRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T07:11:28.046Z",
               "EditorCaption": ""
