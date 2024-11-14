@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\App.xaml
-11407045341
+8-869631924
 
-61097790250
-246907179706
-MainWindow.xaml;
+13-1100092814
+253-2021553965
+ArtistWindow.xaml;CreateSongWindow.xaml;DetailWindow.xaml;FavoriteWindow.xaml;LoginWindow.xaml;MainWindow.xaml;PlaylistShow.xaml;ThemesWindow.xaml;
 
 True
 

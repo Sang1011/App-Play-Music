@@ -13,3 +13,4 @@ D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerA
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\refint\MusicPlayerApp.BLL.dll
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.pdb
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\ref\MusicPlayerApp.BLL.dll
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.BLL\obj\Debug\net8.0\MusicPlayerApp.BLL.sourcelink.json

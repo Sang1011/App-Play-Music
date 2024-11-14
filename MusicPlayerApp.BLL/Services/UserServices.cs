@@ -16,5 +16,10 @@ namespace MusicPlayerApp.BLL.Services
         {
             return _repo.GetAll();
         }
+
+        public User? Authenticate(string email, string password)
+        {
+            return _repo.GetOne(email, password);
+        }
     }
 }

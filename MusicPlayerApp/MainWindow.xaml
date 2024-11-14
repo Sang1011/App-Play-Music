@@ -5,34 +5,80 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MusicPlayerApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded" >
+        Title="MainWindow" Height="580" Width="1020"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
     <Grid Background="#FF1E1325">
-        <Rectangle HorizontalAlignment="Left" Height="434" VerticalAlignment="Center" Width="123" Fill="#FF302438"/>
-        <Image x:Name="Logo" HorizontalAlignment="Left" Height="41" Margin="42,10,0,0" VerticalAlignment="Top" Width="42" Source="/salford.png" Stretch="UniformToFill"/>
-        <!-- Các Button vẫn giữ nguyên -->
-        <Button x:Name="YourPlaylistButton" Content="Your Playlist" HorizontalAlignment="Left" Margin="0,94,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Click="YourPlaylistButton_Click" />
+        <Rectangle HorizontalAlignment="Left" Height="564" VerticalAlignment="Center" Width="123" Fill="#FF302438"/>
+        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Margin="0,58,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" Background="#FF523E5F" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Click="Home_Click"/>
+        <Button x:Name="Playlists" Content="Your Playlists" HorizontalAlignment="Left" Margin="0,94,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Click="Playlists_Click"/>
         <Button x:Name="ThemesButton" Content="Themes" HorizontalAlignment="Left" Margin="0,132,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontWeight="Bold" Click="ThemesButton_Click" />
-        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="0,343,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Click="LoginButton_Click" />
-        <Button x:Name="LogoutButton" Content="Logout" HorizontalAlignment="Left" Margin="0,379,0,21" Width="123" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Click="LogoutButton_Click" />
+        <Button x:Name="LoginButton" 
+        Content="Login" 
+        HorizontalAlignment="Left" 
+        Margin="0,456,0,0" 
+        VerticalAlignment="Top" 
+        Width="123" 
+        RenderTransformOrigin="0.5,0.5" 
+        Height="34" 
+        Background="{x:Null}" 
+        FontWeight="Bold" 
+        Foreground="White" 
+        BorderBrush="{x:Null}" 
+        Click="LoginButton_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsEnabled, RelativeSource={RelativeSource Self}}" Value="False">
+                            <Setter Property="Background" Value="#FF302438"/>
+                            <Setter Property="Foreground" Value="#FF302438"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Button x:Name="QuitButton" 
+        Content="Quit" 
+        HorizontalAlignment="Left" 
+        Margin="0,490,0,0" 
+        VerticalAlignment="Top" 
+        Width="123" 
+        RenderTransformOrigin="0.5,0.5" 
+        Height="34" 
+        Background="{x:Null}" 
+        FontWeight="Bold" 
+        Foreground="White" 
+        BorderBrush="{x:Null}" Click="QuitButton_Click">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsEnabled, RelativeSource={RelativeSource Self}}" Value="False">
+                            <Setter Property="Background" Value="#FF302438"/>
+                            <Setter Property="Foreground" Value="#FF302438"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
 
 
         <TextBox x:Name="SearchBox" Padding="20,0,0,0" Width="422" Height="25"
-             FontSize="14" TextWrapping="Wrap" VerticalAlignment="Top"
+             FontSize="14" VerticalAlignment="Top"
              TextChanged="SearchBox_TextChanged" Margin="253,12,125,0" />
-        <Image HorizontalAlignment="Left" Height="21" Margin="255,14,0,0" Source="Resources/Images/search-searching-icon-vector-magnifying-260nw-1613155609.webp" VerticalAlignment="Top" Width="22" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="21" Margin="365,14,0,0" Source="Resources/Images/search-searching-icon-vector-magnifying-260nw-1613155609.webp" VerticalAlignment="Top" Width="22" Stretch="UniformToFill"/>
         <Label x:Name="AllSongLabel" Content="All Songs" HorizontalAlignment="Left" Height="32" Margin="152,54,0,0" VerticalAlignment="Top" Width="135" FontSize="16" FontWeight="Bold" Foreground="White"/>
         <!-- ListBox để hiển thị dữ liệu các bài hát -->
-        <ListBox x:Name="SongsListBox" HorizontalAlignment="Left" Margin="152,94,0,0" VerticalAlignment="Top" Width="624" Height="300" Background="{x:Null}" BorderBrush="{x:Null}">
+        <ListBox x:Name="SongsListBox" HorizontalAlignment="Left" Margin="152,94,0,0" VerticalAlignment="Top" Width="858" Height="460" Background="{x:Null}" BorderBrush="{x:Null}" SelectionChanged="SongsListBox_SelectionChanged" d:ItemsSource="{d:SampleData ItemCount=5}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Grid Margin="10">
+                    <Grid Width="575" Margin="0,0,0,10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
-                        <!-- Image hiển thị ảnh album -->
+                        <!-- Image hiển thị ảnh -->
                         <Image Width="60" Height="60" Source="{Binding Image}" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
                         <!-- Thông tin bài hát bên cạnh Image -->

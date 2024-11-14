@@ -7,7 +7,51 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ArtistWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateSongWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DetailWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FavoriteWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PlaylistShow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ThemesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ArtistWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateSongWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DetailWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FavoriteWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PlaylistShow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ThemesWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Exit.jpg" />
     <None Remove="images.png" />
     <None Remove="Resources\Images\1.jpg" />
     <None Remove="Resources\Images\2.jpg" />
@@ -21,10 +22,16 @@
     <None Remove="Resources\Images\Salford.ico" />
     <None Remove="Resources\Images\Salford.png" />
     <None Remove="Resources\Images\search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
+    <None Remove="Resources\Images\turnback.png" />
+    <None Remove="Resources\Images\turnback.webp" />
     <None Remove="Resources\Images\z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
     <None Remove="Salford.png" />
     <None Remove="search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
     <None Remove="z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +41,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Images\Exit.jpg" />
     <Resource Include="Resources\Images\1.jpg" />
     <Resource Include="Resources\Images\2.jpg" />
     <Resource Include="Resources\Images\3.jpg" />
@@ -45,6 +53,8 @@
     <Resource Include="Resources\Images\Salford.ico" />
     <Resource Include="Resources\Images\Salford.png" />
     <Resource Include="Resources\Images\search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
+    <Resource Include="Resources\Images\turnback.png" />
+    <Resource Include="Resources\Images\turnback.webp" />
     <Resource Include="Resources\Images\z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
   </ItemGroup>
 

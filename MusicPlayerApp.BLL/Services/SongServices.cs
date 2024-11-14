@@ -17,6 +17,16 @@ namespace MusicPlayerApp.BLL.Services
             return _repo.GetAll();
         }
 
+        public List<Song> GetListByCategory(string genre)
+        {
+            return _repo.GetByCategory(genre);
+        }
+
+        public List<Song> GetAllListSongsWithUserID(int userID)
+        {
+            return _repo.GetAllListSongsWithUserID(userID);
+        }
+
         public void AddSong(Song x)
         {
             _repo.Add(x);
@@ -30,6 +40,11 @@ namespace MusicPlayerApp.BLL.Services
         public void UpdateSong(Song x)
         {
             _repo.Update(x);
+        }
+
+        public Song? GetRandomSong(Song now)
+        {
+            return _repo.GetRandom(now);
         }
     }
 }

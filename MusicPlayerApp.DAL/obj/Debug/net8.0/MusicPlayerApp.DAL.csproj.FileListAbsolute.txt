@@ -12,3 +12,4 @@ D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerA
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.DAL\obj\Debug\net8.0\MusicPlayerApp.DAL.pdb
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.DAL\obj\Debug\net8.0\MusicPlayerApp.DAL.genruntimeconfig.cache
 D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.DAL\obj\Debug\net8.0\ref\MusicPlayerApp.DAL.dll
+D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp.DAL\obj\Debug\net8.0\MusicPlayerApp.DAL.sourcelink.json

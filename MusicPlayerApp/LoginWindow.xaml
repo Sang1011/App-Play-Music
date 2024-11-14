@@ -1,0 +1,24 @@
+﻿<Window x:Class="MusicPlayerApp.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicPlayerApp"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="580" Width="1020"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Background="#FF302438">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="919*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="CloseButton" Content="⇦" FontSize="55" HorizontalAlignment="Left" VerticalAlignment="Top" Height="55" Width="56" Click="CloseButton_Click" BorderThickness="0" Background="{x:Null}" Foreground="White" FontWeight="Bold" Padding="0,-10,0,0" Margin="8,-6,0,0"/>
+        <Label Content="LOGIN" FontSize="55" FontWeight="Bold" Margin="231,25,332,448" HorizontalContentAlignment="Center" Foreground="white" Grid.Column="1"/>
+        <Label Content="Email" Foreground="white" FontSize="24" FontWeight="Bold" Margin="0,157,759,325" HorizontalContentAlignment="Center" Grid.Column="1"/>
+        <Label Content="Password" Foreground="white" FontSize="24" FontWeight="Bold" Margin="0,244,759,218" HorizontalContentAlignment="Center" Grid.Column="1"/>
+        <TextBox x:Name="EmailTextBox" HorizontalAlignment="Left" Height="43" Margin="160,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="556" FontSize="24" Grid.Column="1"/>
+        <TextBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Height="43" Margin="160,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="556" FontSize="24" Grid.Column="1"/>
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="216,366,0,0" VerticalAlignment="Top" Height="54" Width="161" FontSize="24" FontWeight="Bold" Background="blue" Foreground="white" Click="LoginButton_Click" BorderThickness="0" Grid.Column="1"/>
+        <Button x:Name="QuitButton" Content="Quit" HorizontalAlignment="Left" Margin="411,366,0,0" VerticalAlignment="Top" Height="54" Width="160" FontSize="24" FontWeight="Bold" Background="red" Foreground="white" Click="QuitButton_Click" BorderThickness="0" Grid.Column="1"/>
+    </Grid>
+</Window>

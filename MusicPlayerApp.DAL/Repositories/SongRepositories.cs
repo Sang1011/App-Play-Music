@@ -18,6 +18,20 @@ namespace MusicPlayerApp.DAL.Repositories
             return _context.Songs.Include(s => s.User).Include(s => s.Genre).ToList();
         }
 
+        public List<Song> GetByCategory(string genre)
+        {
+            _context = new MusicAppContext();
+            return _context.Songs.Include(s => s.User).Include(s => s.Genre).Where(s => s.Genre.Name == genre).ToList();
+        }
+
+        public List<Song> GetAllListSongsWithUserID(int userID)
+        {
+            _context = new();
+            return _context.Songs.Include(s => s.User).Include(s => s.Genre)
+                           .Where(song => song.UserId == userID)
+                           .ToList();
+        }
+
         public void Add(Song x)
         {
             _context = new();
@@ -37,6 +51,15 @@ namespace MusicPlayerApp.DAL.Repositories
             _context = new();
             _context.Songs.Remove(x);
             _context.SaveChanges();
+        }
+
+        public Song? GetRandom(Song now)
+        {
+            _context = new MusicAppContext();
+            return _context.Songs
+                           .Where(s => s.SongId != now.SongId)  
+                           .OrderBy(s => Guid.NewGuid())      
+                           .FirstOrDefault();                    
         }
     }
 }

@@ -1,0 +1,19 @@
+﻿<Window x:Class="MusicPlayerApp.PlaylistShow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicPlayerApp"
+        mc:Ignorable="d"
+        Title="PlaylistShow" Height="230" Width="214" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Onload">
+    <Grid Margin="0,0,0,0">
+        
+        <ListBox Background="#FF442D54" Foreground="white" x:Name="playlistListBox" d:ItemsSource="{d:SampleData ItemCount=10}" SelectionChanged="playlistListBox_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}" FontSize="14" Width="180"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
