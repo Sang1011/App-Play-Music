@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\obj\Debug\net8.0-windows\
+E:\MusicApp\App-Play-Music\MusicPlayerApp\obj\Debug\net8.0-windows\
 MusicPlayerApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\DAI_HOC\Sang\Semester5\PRN212\GroupProject\MusicPlayerApp_Group4\MusicPlayerApp\App.xaml
+E:\MusicApp\App-Play-Music\MusicPlayerApp\App.xaml
 8-869631924
 
 13-1100092814
-246907179706
+246-1175043615
 ArtistWindow.xaml;CreateSongWindow.xaml;DetailWindow.xaml;FavoriteWindow.xaml;LoginWindow.xaml;MainWindow.xaml;PlaylistShow.xaml;ThemesWindow.xaml;
 
-True
+False
 

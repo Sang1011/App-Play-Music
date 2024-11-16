@@ -37,6 +37,11 @@ namespace MusicPlayerApp
                 BackButton.IsEnabled = false;
                 NextButton.IsEnabled = false;
             }
+            if(CurrentUser != null && CurrentUser.Role == "Artist")
+            {
+                BackButton.IsEnabled = false;
+                NextButton.IsEnabled = false;
+            }
         }
 
         private void UpdateBackButtonState()

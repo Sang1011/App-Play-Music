@@ -9,10 +9,7 @@
     <Grid Background="#FF1E1325">
         <!-- Sidebar and other elements -->
         <Rectangle HorizontalAlignment="Left" Height="564" VerticalAlignment="Center" Width="123" Fill="#FF302438"/>
-        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Margin="0,58,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Click="Home_Click"/>
-        <Button x:Name="Playlists" Content="Your Playlists" HorizontalAlignment="Left" Margin="0,94,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" Background="{x:Null}" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Click="Playlists_Click"/>
-        <Button x:Name="ThemesButton" Content="Themes" HorizontalAlignment="Left" Margin="0,132,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.5,0.5" Height="34" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="White" FontWeight="Bold" Click="ThemesButton_Click"/>
-        <Button x:Name="Workspace" Content="Your Workspace" HorizontalAlignment="Left" Margin="0,168,0,0" VerticalAlignment="Top" Width="123" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Background="#FF523E5F" Height="34" Click="Workspace_Click"/>
+        <Button x:Name="Workspace" Content="Your Workspace" HorizontalAlignment="Left" Margin="0,97,0,0" VerticalAlignment="Top" Width="123" FontWeight="Bold" Foreground="White" BorderBrush="{x:Null}" Background="#FF523E5F" Height="34" Click="Workspace_Click"/>
         
         <Button x:Name="QuitButton" 
 Content="Quit" 
@@ -47,7 +44,7 @@ BorderBrush="{x:Null}" Click="QuitButton_Click">
         <ListBox x:Name="SongsListBox" HorizontalAlignment="Left" Margin="155,315,0,0" VerticalAlignment="Top" Width="840" Height="248" Background="{x:Null}" BorderBrush="{x:Null}" SelectionChanged="SongsListBox_SelectionChange" d:ItemsSource="{d:SampleData ItemCount=5}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Grid Width="801">
+                    <Grid Width="801" Margin="0 5 0 5">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="Auto"/>
@@ -55,7 +52,7 @@ BorderBrush="{x:Null}" Click="QuitButton_Click">
                         </Grid.ColumnDefinitions>
 
                         <!-- Album image -->
-                        <Image Width="60" Height="60" Source="{Binding Image}" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        <Image Width="60" Height="60" Source="{Binding Image}" HorizontalAlignment="Center" VerticalAlignment="Top" Stretch="UniformToFill"/>
 
                         <!-- Song information -->
                         <StackPanel Orientation="Vertical" Grid.Column="1" Margin="10, 0, 0, 0">

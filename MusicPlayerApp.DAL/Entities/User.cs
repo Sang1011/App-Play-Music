@@ -12,6 +12,7 @@ public partial class User
     public string Password { get; set; } = null!;
 
     public string Email { get; set; } = null!;
+    public string Image { get; set; } = null!;
 
     public DateOnly? CreatedDate { get; set; }
 

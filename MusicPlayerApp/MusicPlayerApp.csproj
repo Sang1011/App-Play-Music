@@ -19,16 +19,53 @@
     <None Remove="Resources\Images\6.jpg" />
     <None Remove="Resources\Images\7.jpg" />
     <None Remove="Resources\Images\8.jpg" />
+    <None Remove="Resources\Images\dontcoi.jpg" />
     <None Remove="Resources\Images\images.png" />
+    <None Remove="Resources\Images\lanman.jpg" />
+    <None Remove="Resources\Images\noidoi.jpg" />
+    <None Remove="Resources\Images\phucdu.jpg" />
+    <None Remove="Resources\Images\ronboogz.jpg" />
     <None Remove="Resources\Images\Salford.ico" />
     <None Remove="Resources\Images\Salford.png" />
     <None Remove="Resources\Images\search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
+    <None Remove="Resources\Images\Son Tung MTP.jpg" />
+    <None Remove="Resources\Images\tangduytan.jpg" />
     <None Remove="Resources\Images\turnback.png" />
     <None Remove="Resources\Images\turnback.webp" />
     <None Remove="Resources\Images\z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
+    <None Remove="Resources\Songs\dontcoi.mp3" />
+    <None Remove="Resources\Songs\lanman.mp3" />
+    <None Remove="Resources\Songs\noidoi.mp3" />
     <None Remove="Salford.png" />
     <None Remove="search-searching-icon-vector-magnifying-260nw-1613155609.webp" />
     <None Remove="z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\dontcoi.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\lanman.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\noidoi.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\phucdu.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\ronboogz.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\Son Tung MTP.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\tangduytan.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Songs\dontcoi.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +91,12 @@
     <Resource Include="Resources\Images\turnback.png" />
     <Resource Include="Resources\Images\turnback.webp" />
     <Resource Include="Resources\Images\z6009036490593_4bcd553e5ccec081f38063003fd34c81.jpg" />
+    <Resource Include="Resources\Songs\lanman.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Songs\noidoi.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

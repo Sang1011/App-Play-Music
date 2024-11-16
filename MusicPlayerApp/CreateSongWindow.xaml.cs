@@ -63,6 +63,7 @@ namespace MusicPlayerApp
         }
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            if(!CheckValidation()) { return; }
             Song song = new Song();
             song.UserId = int.Parse(UserIDTextBox.Text);
             song.Title = TitleTextBox.Text;
@@ -165,5 +166,47 @@ namespace MusicPlayerApp
         {
             return System.IO.Path.GetFileName(filePath);
         }
+
+        private bool CheckValidation()
+        {
+            if (string.IsNullOrWhiteSpace(TitleTextBox.Text))
+            {
+                MessageBox.Show("Title is required!", "Field required", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
+            if (GenreIdComboBox.SelectedValue == null)
+            {
+                MessageBox.Show("Genre is required!", "Field required", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(ImageTextBox.Text))
+            {
+                MessageBox.Show("Image path is required!", "Field required", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(FilePathTextBox.Text))
+            {
+                MessageBox.Show("Audio file path is required!", "Field required", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(DurationTextBox.Text))
+            {
+                MessageBox.Show("Duration is required!", "Field required", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
+            if (!ReleaseDatePicker.SelectedDate.HasValue)
+            {
+                MessageBox.Show("Release date is required!", "Field required", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
+            return true;
+        }
+
     }
 }

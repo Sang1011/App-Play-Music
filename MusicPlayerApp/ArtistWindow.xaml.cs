@@ -40,6 +40,7 @@ namespace MusicPlayerApp
         private void loadSongs()
         {
             this.DataContext = CurrentUser;
+            Console.WriteLine("image : " + CurrentUser.Image);
             var allSongs = _service.GetAllListSongsWithUserID(CurrentUser.UserId);
             FilteredSongs = new ObservableCollection<Song>(allSongs);
             SongsListBox.ItemsSource = null;
@@ -76,8 +77,8 @@ namespace MusicPlayerApp
             }
 
             var keyword = SearchBox.Text.ToLower();
-
-            var filteredSongs = _service.GetList()
+            int userID = CurrentUser.UserId;
+            var filteredSongs = _service.GetAllListSongsWithUserID(userID)
                 .Where(s => s.Title.ToLower().Contains(keyword) || s.User.Username.ToLower().Contains(keyword))
                 .Take(3);
 

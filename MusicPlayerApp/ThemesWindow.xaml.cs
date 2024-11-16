@@ -23,6 +23,7 @@ namespace MusicPlayerApp
     {
         private SongServices _services = new();
         private DetailWindow detailWindow;
+        private PlaylistShow showWindow;
         public User? CurrentUser { get; set; }
         public ThemesWindow()
         {
@@ -126,7 +127,8 @@ namespace MusicPlayerApp
                 detailWindow.Close();
             }
             LoginWindow login = new();
-            login.ShowDialog();
+            login.Show();
+            login.Close();
         }
 
         private void QuitButton_Click(object sender, RoutedEventArgs e)
@@ -154,10 +156,13 @@ namespace MusicPlayerApp
             {
                 detailWindow.Close();
             }
+            if (showWindow != null)
+            {
+                showWindow.Close();
+            }
             PlaylistShow show = new();
             show.CurrentUser = CurrentUser;
             show.ShowDialog();
-            this.Close();
         }
     }
 }

@@ -24,20 +24,20 @@
         <ComboBox x:Name="GenreIdComboBox" HorizontalAlignment="Left" Height="32" Margin="154,228,0,0" VerticalAlignment="Top" Width="127" TabIndex="1" FontSize="18" />
 
         <Label Content="Image" HorizontalAlignment="Left" Height="30" Margin="44,277,0,0" VerticalAlignment="Top" Width="80" Foreground="#000" FontWeight="Bold" FontSize="15" RenderTransformOrigin="0.476,0.475"/>
-        <TextBox x:Name="ImageTextBox" HorizontalAlignment="Left" Height="31" Margin="155,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495" IsReadOnly="True" TabIndex="2"/>
-        <Button Content="Browse" HorizontalAlignment="Left" Height="31" Margin="582,279,0,0" VerticalAlignment="Top" Width="68" TabIndex="3" Click="BrowseImageButton_Click" Background="#808080" RenderTransformOrigin="0.475,-0.749"/>
+        <TextBox x:Name="ImageTextBox" HorizontalAlignment="Left" Height="31" Margin="155,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495" IsReadOnly="True" />
+        <Button Content="Browse" HorizontalAlignment="Left" Height="31" Margin="582,279,0,0" VerticalAlignment="Top" Width="68" TabIndex="2" Click="BrowseImageButton_Click" Background="#808080" RenderTransformOrigin="0.475,-0.749"/>
 
         <Label Content="File" HorizontalAlignment="Left" Height="32" Margin="44,326,0,0" VerticalAlignment="Top" Width="74" Foreground="#000" FontWeight="Bold" FontSize="15"/>
-        <TextBox x:Name="FilePathTextBox" HorizontalAlignment="Left" Height="30" Margin="154,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" IsReadOnly="True" TabIndex="2"/>
+        <TextBox x:Name="FilePathTextBox" HorizontalAlignment="Left" Height="30" Margin="154,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" IsReadOnly="True"/>
         <Button Content="Browse" HorizontalAlignment="Left" Height="30" Margin="583,328,0,0" VerticalAlignment="Top" Width="67" TabIndex="3" Click="BrowseFileButton_Click" Background="#808080"/>
 
         <Label Content="Duration" HorizontalAlignment="Left" Height="29" Margin="44,375,0,0" FontWeight="Bold" FontSize="15" VerticalAlignment="Top" Width="74" Foreground="#000"/>
-        <TextBox x:Name="DurationTextBox" HorizontalAlignment="Left" Height="28" Margin="154,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" TabIndex="0"/>
+        <TextBox x:Name="DurationTextBox" HorizontalAlignment="Left" Height="28" Margin="154,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="496" TabIndex="4"/>
 
         <Label Content="Release Date" HorizontalAlignment="Left" Height="34" Margin="45,416,0,0" VerticalAlignment="Top" Width="102" Foreground="#000" FontWeight="Bold" FontSize="15"/>
-        <DatePicker x:Name="ReleaseDatePicker" HorizontalAlignment="Left" Height="24" Margin="152,419,0,0" VerticalAlignment="Top" Width="150" TabIndex="4"/>
+        <DatePicker x:Name="ReleaseDatePicker" HorizontalAlignment="Left" Height="24" Margin="152,419,0,0" VerticalAlignment="Top" Width="150" TabIndex="5"/>
 
-        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Height="50" Margin="751,133,0,0" VerticalAlignment="Top" Width="165" TabIndex="5" Click="SaveButton_Click" Background="#6BA3BE"/>
-        <Button x:Name="CloseButton" Content="Close" Height="50" Margin="752,197,86,0" VerticalAlignment="Top" TabIndex="6" Click="CloseButton_Click" Background="#B4182D"/>
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Height="50" Margin="751,133,0,0" VerticalAlignment="Top" Width="165" TabIndex="6" Click="SaveButton_Click" Background="#6BA3BE"/>
+        <Button x:Name="CloseButton" Content="Close" Height="50" Margin="752,197,86,0" VerticalAlignment="Top" TabIndex="7" Click="CloseButton_Click" Background="#B4182D"/>
     </Grid>
 </Window>

@@ -28,6 +28,7 @@ namespace MusicPlayerApp
 
         public SongServices _service = new();
         private DetailWindow detailWindow;
+        private PlaylistShow showWindow;
 
         public FavoriteWindow()
         {
@@ -93,7 +94,8 @@ namespace MusicPlayerApp
                 detailWindow.Close();
             }
             LoginWindow login = new();
-            login.ShowDialog();
+            login.Show();
+            login.Close();
         }
 
         private void QuitButton_Click(object sender, RoutedEventArgs e)
@@ -171,7 +173,18 @@ namespace MusicPlayerApp
 
         private void Playlists_Click(object sender, RoutedEventArgs e)
         {
-            LoadData();
+            if (detailWindow != null)
+            {
+                detailWindow.Close();
+            }
+            if(showWindow != null)
+            {
+                showWindow.Close();
+            }
+            PlaylistShow show = new();
+            show.CurrentUser = CurrentUser;
+            show.ShowDialog();
         }
+
     }
 }

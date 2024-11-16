@@ -19,6 +19,7 @@ namespace MusicPlayerApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        private PlaylistShow showWindow;
         public User? CurrentUser { get; set; }
         public ObservableCollection<Song> FilteredSongs { get; set; }
 
@@ -61,8 +62,8 @@ namespace MusicPlayerApp
             }
             ThemesWindow theme = new();
             theme.CurrentUser = CurrentUser;
-            theme.Show();
             this.Close();
+            theme.Show();
         }
 
 
@@ -103,7 +104,8 @@ namespace MusicPlayerApp
                 detailWindow.Close();
             }
             LoginWindow login = new();
-            login.ShowDialog();
+            this.Close();
+            login.Show();
         }
 
         private void SongsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -141,10 +143,13 @@ namespace MusicPlayerApp
             {
                 detailWindow.Close();
             }
+            if (showWindow != null)
+            {
+                showWindow.Close();
+            }
             PlaylistShow show = new();
             show.CurrentUser = CurrentUser;
             show.ShowDialog();
-            this.Close();
         }
     }
 }

@@ -25,7 +25,7 @@ public partial class MusicAppContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=SURBOOK2-HP\\TUESANG;uid=sa;pwd=12345;database=MusicApp;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=LAPTOP-4SH81D1E\\HAOMG;uid=sa;pwd=12345;database=MusicApp;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
